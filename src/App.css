@@ -1,0 +1,29 @@
+
+
+
+body {
+  background-color: #282c34;
+ 
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(36, 29, 29);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+  z-index: 99;
+  border-radius: 20px;
+}
+
+.login {
+  text-align: center;
+  margin-top: 25%;
+
+}
